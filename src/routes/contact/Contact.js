@@ -22,7 +22,7 @@ class Contact extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <p>...</p>
+          <img className={s.header} src={'./header.jpg'} alt={'office view from Google Streetview'} />
         </div>
       </div>
     );

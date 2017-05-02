@@ -9,7 +9,7 @@
 
 @import '../variables.css';
 
-@global-import 'normalize.css' ;
+@global-import 'normalize.css';
 
 /*
  * Base styles
@@ -29,6 +29,12 @@ body {
 
 a {
   color: #0074c2;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+  font-family: var(--font-family-header-base);
+  font-weight: 900;
+  font-style: italic;
 }
 
 /*

@@ -10,25 +10,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Layout.css';
-import Header from '../Header';
-// import Feedback from '../Feedback';
-import Footer from '../Footer';
+import s from './About.css';
 
-class Layout extends React.Component {
+import Team from './team';
+
+import Profile from '../../components/Profile';
+
+const Profiles = Team.map(member => (<Profile {...member} />));
+
+class About extends React.Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
+    title: PropTypes.string.isRequired,
   };
 
   render() {
     return (
-      <div>
-        <Header />
-        {this.props.children}
-        <Footer />
+      <div className={s.root}>
+        <div className={s.container}>
+          <h1>{this.props.title}</h1>
+          {Profiles}
+        </div>
       </div>
     );
   }
 }
 
-export default withStyles(s)(Layout);
+export default withStyles(s)(About);

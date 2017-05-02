@@ -14,28 +14,26 @@ import s from './Home.css';
 
 class Home extends React.Component {
   static propTypes = {
-    news: PropTypes.arrayOf(PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      link: PropTypes.string.isRequired,
-      content: PropTypes.string,
-    })).isRequired,
   };
 
   render() {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <h1>React.js News</h1>
-          {this.props.news.map(item => (
-            <article key={item.link} className={s.newsItem}>
-              <h1 className={s.newsTitle}><a href={item.link}>{item.title}</a></h1>
-              <div
-                className={s.newsDesc}
-                // eslint-disable-next-line react/no-danger
-                dangerouslySetInnerHTML={{ __html: item.content }}
-              />
-            </article>
-          ))}
+          <h1>Welcome to Our Practice</h1>
+          <div className={s.row}>
+            <p>
+              <img src={'./office_entry.jpg'} alt={'Entry to the office'} />
+              We are a small personal family practice. My staff and I pride ourselves on giving quality care and individualized attention to our patients. We value your time and schedule appointments to try to minimize waiting time in our office. We believe that your comfort during treatment is of the utmost importance, and we will do our best to ensure that your office visit will be efficient and pleasant.<br /><br />Our dedication to the education of our patients and staff supports exceptional service in a caring environment.
+            </p>
+          </div>
+          <div className={s.mission}>
+            <p>Our mission is to help people keep their teeth for a lifetime of optimal health, comfort, function, and appearance.</p>
+          </div>
+          <div className={s.image_row}>
+            <img src={'./team.jpg'} alt={'the team'} />
+            <img src={'./office_outside.jpg'} alt={'Outside view of the office'} />
+          </div>
         </div>
       </div>
     );
