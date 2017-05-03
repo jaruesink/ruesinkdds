@@ -21,6 +21,7 @@ export default {
     // require('./login').default,
     // require('./register').default,
     require('./about').default,
+    require('./services').default,
     // require('./privacy').default,
     // require('./admin').default,
 
