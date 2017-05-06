@@ -22,22 +22,29 @@ class Services extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <p>Our treatment philosophy is geared toward preventing future dental problems. We treat patients of all ages and we offer a broad range of treatment plans from the most basic to the state of the art.</p>
-          <p>Our comprehensive services include the following:</p>
+          <p>
+            Our treatment philosophy is geared toward preventing future dental problems. We treat patients of all ages and we offer a broad range of treatment plans from the most basic to the state of the art.
+          </p>
+          <p>
+            <img className={s.chair} src={'./dentalchair.jpg'} alt="view of dental chair" />
+            Our comprehensive services include the following:</p>
           <p><b>Preventive:</b> teeth cleaning, comprehensive oral exams, oral cancer screening, education, and sealants</p>
           <p><b>Cosmetic:</b> bonding, porcelain veneers, recontouring, and whitening</p>
           <p><b>Restorative:</b> restoring the form and function of teeth with composite resin, porcelain, gold, or partial or complete dentures</p>
           <p><b>Emergency:</b> relief of pain, infection, or embarrassment</p>
           <p><b>Periodontal:</b> non-surgical treatment and management of gum disease</p>
-          <p>Our sterilization procedures follow current OSHA (Occupational Safety and Health Administration), CDC (Centers for Disease Control) and the ADA (American Dental Association) guidelines.</p>
+          <p>Our sterilization procedures follow current OSHA (Occupational Safety and Health Administration), CDC (Centers for Disease Control) and the ADA (American Dental Association) guidelines.</p><br />
           <p>We recommend the following sites for reliable information on <b>dental treatment</b> and <b>oral health</b>:</p>
-          <ul>
-            <li>ada.org</li>
-            <li>tda.org</li>
-            <li>healthfinder.gov</li>
-            <li>medlineplus.gov</li>
-            <li>consumerreports.org/health</li>
-          </ul>
+          <div className={s.sites}>
+            <ul>
+              <li><a href="ada.org" target="_blank">ada.org</a></li>
+              <li><a href="tda.org" target="_blank">tda.org</a></li>
+              <li><a href="healthfinder.gov" target="_blank">healthfinder.gov</a></li>
+              <li><a href="medlineplus.gov" target="_blank">medlineplus.gov</a></li>
+              <li><a href="consumerreports.org/health" target="_blank">consumerreports.org/health</a></li>
+            </ul>
+            <img src={'./beforeandafters.jpg'} alt="before and after pictures" />
+          </div>
         </div>
       </div>
     );

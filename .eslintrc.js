@@ -30,6 +30,9 @@ module.exports = {
     },
 
     rules: {
+
+      'react/jsx-no-target-blank': 0,
+
       // `js` and `jsx` are common extensions
       // `mjs` is for `universal-router` only, for now
       'import/extensions': [

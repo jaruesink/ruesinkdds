@@ -15,6 +15,32 @@
   b { font-size: 20px; font-family: var(--font-family-header-base);}
 }
 
+.chair {
+  max-width: 100%;
+  margin: 0 0 16px 0;
+  @media (min-width: 676px) {
+    margin: 0 32px 0 16px;
+    width: 300px;
+    float: right;
+  }
+}
+
+.sites {
+  position: relative;
+  min-height: 300px;
+  width: 100%;
+  li {margin-bottom: 8px;}
+  img {
+    max-width: 100%;
+    @media (min-width: 740px) {
+      width: 400px;
+      position: absolute;
+      right: 32px;
+      top: 0px;
+    }
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: var(--max-content-width);

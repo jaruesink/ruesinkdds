@@ -12,18 +12,24 @@
   padding: 8px;
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.15);
-  width: 542px;
-  position: absolute;
-  right: 0;
-  margin-right: 20px;
+  @media (min-width: 564px) {
+    width: 509px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
 }
 
 .link {
-  display: inline-block;
-  padding: 3px 8px;
-  text-decoration: none;
+  display: block;
   font-size: 1em;
   letter-spacing: .02em;
+  text-decoration: none;
+  padding: 6px 8px;
+
+  @media (min-width: 564px) {
+    display: inline-block;
+  }
 }
 
 .link,
@@ -54,5 +60,9 @@
 }
 
 .spacer {
-  color: rgba(255, 255, 255, 0.3);
+  display: none;
+  @media (min-width: 564px) {
+    color: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+  }
 }
