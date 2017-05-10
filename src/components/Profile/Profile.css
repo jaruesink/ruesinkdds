@@ -12,15 +12,27 @@
 .root {
   color: #333;
   min-height: 400px;
-  padding-left: 316px;
   position: relative;
   margin: 0 0 32px 0;
+
   img {
-    position: absolute;
-    left: 0;
-    top:0;
-    height: 400px;
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
     width: auto;
+    max-width: 100%;
+  }
+
+  @media (min-width: 660px) {
+    padding-left: 316px;
+    img {
+      margin: 0;
+      position: absolute;
+      left: 0;
+      top:0;
+      height: 400px;
+      width: auto;
+    }
   }
 }
 

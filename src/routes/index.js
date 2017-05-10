@@ -22,6 +22,7 @@ export default {
     // require('./register').default,
     require('./about').default,
     require('./services').default,
+    require('./forms').default,
     // require('./privacy').default,
     // require('./admin').default,
 
@@ -34,7 +35,8 @@ export default {
     const route = await next();
 
     // Provide default values for title, description etc.
-    route.title = `${route.title || 'Untitled Page'} - www.reactstarterkit.com`;
+    if (route.title) { route.title = `${route.title} - `; }
+    route.title = `${route.title || ''} RuesinkDDS.com`;
     route.description = route.description || '';
 
     return route;
