@@ -20,7 +20,7 @@ class Footer extends React.Component {
           <span className={s.text}>
             4505 Spicewood Springs Road Suite 100, Austin, Texas 78759
             <span className={s.spacer}> | </span>
-            <a href="tel:512-345-3955">(512) 345-3955</a>
+            <a href="tel:512-345-3955">(512)&nbsp;345-3955</a>
             <span className={s.spacer}> | </span>
             <a href="mailto:druesink@earthlink.net">druesink@earthlink.net</a>
           </span>

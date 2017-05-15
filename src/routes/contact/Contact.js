@@ -34,7 +34,7 @@ class Contact extends React.Component {
             <h2>Office Hours <span>(by appointment)</span></h2>
             <div>
               Monday - Thursday: 8am - 5pm<br />
-              Friday: 8am - 1pm<br />
+              Friday: 8am - 12pm<br />
             </div>
           </div>
           <div className={s.map}>
