@@ -23,14 +23,14 @@ class Services extends React.Component {
         <div className={s.container}>
           <h1>{this.props.title}</h1>
           <p>
-            Our treatment philosophy is geared toward preventing future dental problems. We treat patients of all ages and we offer a broad range of treatment plans from the most basic to the state of the art.
+            Our treatment philosophy is geared toward preventing future dental problems. We treat patients of all ages and we offer a broad range of treatment plans from the most basic to the state of the art. We aim to provide you with the tools and skills needed to make the best decisions for your dental health.
           </p>
           <p>
             <img className={s.chair} src={'./dentalchair.jpg'} alt="view of dental chair" />
             Our comprehensive services include the following:</p>
           <p><b>Preventive:</b> teeth cleaning, comprehensive oral exams, oral cancer screening, education, and sealants</p>
           <p><b>Cosmetic:</b> bonding, porcelain veneers, recontouring, and whitening</p>
-          <p><b>Restorative:</b> restoring the form and function of teeth with composite resin, porcelain, gold, or partial or complete dentures</p>
+          <p><b>Restorative:</b> restoring the form and function of teeth with composite resin, porcelain, zirconia, gold, or partial or complete dentures</p>
           <p><b>Emergency:</b> relief of pain, infection, or embarrassment</p>
           <p><b>Periodontal:</b> non-surgical treatment and management of gum disease</p>
           <p>Our sterilization procedures follow current OSHA (Occupational Safety and Health Administration), CDC (Centers for Disease Control) and the ADA (American Dental Association) guidelines.</p><br />

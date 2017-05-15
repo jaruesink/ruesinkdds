@@ -24,10 +24,15 @@
 
 .text {
   color: rgba(255, 255, 255, 0.5);
+  a {
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 .spacer {
   color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  margin: 0 4px;
 }
 
 .text,

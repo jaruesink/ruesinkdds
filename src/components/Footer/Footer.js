@@ -17,7 +17,16 @@ class Footer extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
+          <span className={s.text}>
+            4505 Spicewood Springs Road Suite 100, Austin, Texas 78759
+            <span className={s.spacer}> | </span>
+            <a href="tel:512-345-3955">(512) 345-3955</a>
+            <span className={s.spacer}> | </span>
+            <a href="mailto:druesink@earthlink.net">druesink@earthlink.net</a>
+          </span>
+          <br /><br />
           <span className={s.text}>© {new Date().getFullYear()} Donna McCoy Ruesink, D.D.S.</span>
+
         </div>
       </div>
     );

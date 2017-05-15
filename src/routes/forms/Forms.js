@@ -28,9 +28,11 @@ class Forms extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
+          <h1>{this.props.title}</h1>
           <ul>
             {formsMarkup}
           </ul>
+          <img src={'./office_plant.jpg'} alt={'Office decoration'} />
         </div>
       </div>
     );

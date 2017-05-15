@@ -12,6 +12,7 @@
 .root {
   padding-left: 20px;
   padding-right: 20px;
+  position: relative;
 }
 
 .container {
@@ -22,4 +23,42 @@
 
 .header {
   max-width: 100%;
+}
+
+.address {
+  @media (min-width: 800px) {
+    display: inline-block;
+    width: 40%;
+  }
+  span {
+    display: block;
+    margin: 32px 0 16px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  h2 {
+    margin-bottom: 8px;
+    span {
+      display: inline-block;
+    }
+  }
+  a {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+}
+
+.map {
+  position: relative;
+  iframe {
+    max-width: 100%;
+  }
+  p {
+    @media (min-width: 800px) {
+      position: absolute;
+      padding-left: 450px;
+      padding-right: 16px;
+    }
+  }
 }

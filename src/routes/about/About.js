@@ -28,6 +28,7 @@ class About extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
+          <img className={s.team} src={'./team.jpg'} alt={'Donna Ruesink D.D.S. team'} />
           {Profiles}
         </div>
       </div>
