@@ -25,12 +25,12 @@ const team = [
     role: 'Office Supervisor/Patient Relations Coordinator',
     about: 'I have been Dr. Ruesink’s business manager since 1996. During my many years of experience in patient care services, I have won numerous awards in this field. I am always continuing to update and advance my knowledge by pursuing educational courses in related fields. Most importantly, I am sensitive and caring about our dental patients.',
   },
-  {
-    name: 'Mary',
-    photo: 'mary.jpg',
-    role: 'Receptionist/Administrative Assistant',
-    about: 'I have been a welcomed member of Dr. Ruesink’s team since 2016. I have experience working in the customer service field and gained further business experience in college. I enjoy working as an advocate for others and strive to see every patient leave with a smile. My theatre background provides me with the ability to quickly absorb and retain knowledge that helps me better serve our patients in administrative duties. In my free time, I work with an after-school foundation that provides local kids with theatrical skills and tools to help them break out of their shells.',
-  },
+  // {
+  //   name: 'Beverly',
+  //   photo: '',
+  //   role: 'Administrative Assistant',
+  //   about: 'I have enjoyed a career as a Registered Dental Assistant since 2003 and became a member of Dr. Ruesink’s team in 2017.  My years of clinical and administrative dental experience help me to assist patients in achieving healthy, beautiful smiles. I have continued my education by attaining certifications in nitrous oxide monitoring, pit and fissure sealant placement, and coronal polishing.  I love welcoming our patients into the office every day with a smile and a laugh. In my free time, I enjoy spending time with my husband, son and two dogs, traveling and volunteering with my son’s high school band.',
+  // },
 ];
 
 export default team;

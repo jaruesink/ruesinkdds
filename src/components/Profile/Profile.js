@@ -18,12 +18,13 @@ class Profile extends React.Component {
     education: PropTypes.string,
     role: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired,
-    photo: PropTypes.string.isRequired,
+    photo: PropTypes.string,
   };
 
   static defaultProps = {
     education: '',
     role: '',
+    photo: '',
   }
 
   render() {
@@ -36,9 +37,14 @@ class Profile extends React.Component {
       role = `, ${role}`;
     }
 
+    let photo_markup = '';
+    if (photo.length > 0) {
+      photo_markup = (<img src={`./${photo}`} alt={name} />);
+    }
+
     return (
       <div className={s.root}>
-        <img src={`./${photo}`} alt={name} />
+        {photo_markup}
         <div className={s.profile}>
           <h2>{name}<span>{education}{role}</span></h2>
           <p>{about}</p>
