@@ -13,11 +13,11 @@ const team = [
     about: 'A graduate of the University of Iowa with a degree in Dental Hygiene, I have been a hygienist for more than 30 years. I have been with Dr. Ruesink since 2001 and hold certificates in nitrous oxide and pit and fissure sealant application. I enjoy seeking out and incorporating the latest dental research and products in our office. One of my joys is helping patients gain the knowledge and skills needed to maintain a healthy mouth.',
   },
   {
-    name: 'Jessica',
-    photo: 'jessica.jpg',
+    name: 'Erin',
+    photo: 'erin.jpg',
     education: 'B.S., R.D.A.',
     role: 'Dental Assistant',
-    about: 'With more than 10 years of experience in all aspects of dentistry, I joined Dr. Ruesink’s team in 2017. I received my Registered Dental Assistant certification in 2007 and am additionally certified in nitrous oxide monitoring. I also earned a bachelor’s degree in Communication with an emphasis on Public Relations from Stephen F. Austin University. I enjoy getting to know our patients and strive to make each person’s experience in our office as pleasant as possible.',
+    about: 'I attended the University of Texas at Austin with a major in Finance and a certificate in Pre-Health Professions. My future plans include continuing my education in dental school to become a dentist. As a dental assistant, I enjoy interacting with our patients. Under the guidance of Dr. Ruesink and her team, I hope to continue to improve my skills to better serve our patients.',
   },
   {
     name: 'Charlene',
